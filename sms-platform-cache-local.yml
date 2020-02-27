@@ -2,4 +2,8 @@ your:
   name: zhangsan
 spring:
   redis:
-    host: 192.168.154.128
+    host: 192.168.154.12
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
